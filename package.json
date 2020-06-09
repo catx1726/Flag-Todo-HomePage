@@ -1,0 +1,27 @@
+{
+  "name": "homepage-flag-todo",
+  "version": "1.0.0",
+  "description": "浏览器首页集成 年度 flag 和 单日 todo 功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catx1726/Flag-Todo-HomePage.git"
+  },
+  "keywords": [
+    "flag",
+    "todo",
+    "homepage"
+  ],
+  "author": "cad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catx1726/Flag-Todo-HomePage/issues"
+  },
+  "homepage": "https://github.com/catx1726/Flag-Todo-HomePage#readme",
+  "dependencies": {
+    "js-cookie": "^2.2.1"
+  }
+}
