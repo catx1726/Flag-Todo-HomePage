@@ -6,8 +6,22 @@
 
 <script>
 export default {
-  components: {}
+  components: {},
+  data() {
+    return {
+      title: 'Index'
+    }
+  },
+  head() {
+    return { title: this.title }
+  }
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.index-container {
+  z-index: 10;
+  height: 80vh;
+  overflow: auto;
+}
+</style>

@@ -37,6 +37,7 @@ export default {
 <style lang="scss" scoped>
 .footer-container {
   height: 10vh;
+  z-index: 10;
   display: flex;
   justify-content: flex-end;
   align-items: center;

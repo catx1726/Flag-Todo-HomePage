@@ -8,7 +8,9 @@ export default {
 
   components: {},
   data() {
-    return {}
+    return {
+      title: 'About'
+    }
   },
 
   computed: {},
@@ -21,13 +23,17 @@ export default {
 
   created() {},
 
-  methods: {}
+  methods: {},
+  head() {
+    return { title: this.title }
+  }
 }
 </script>
 <style lang="scss" scoped>
 .about-container {
+  z-index: 10;
   background-size: contain;
   background-position: center;
-  background-image: url('/imgs/TV-106 七宝.png');
+  // background-image: url('/imgs/TV-106 七宝.png');
 }
 </style>

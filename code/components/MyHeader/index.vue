@@ -2,7 +2,7 @@
   <div class="header-container">
     <ul class="link-container">
       <li v-for="item in navList" :key="item.link" class="link-item large-slim">
-        <a :href="item.link">{{ item.text }}</a>
+        <NuxtLink :to="item.link">{{ item.text }}</NuxtLink>
       </li>
     </ul>
   </div>
@@ -40,10 +40,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 .header-container {
+  z-index: 10;
   height: 10vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  @media screen and (max-width: 800px) {
+    height: 5vh;
+  }
 }
 .link-container {
   height: 100%;
@@ -68,5 +72,8 @@ export default {
 .large-slim {
   font-size: 24px;
   font-weight: 100;
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
 }
 </style>
