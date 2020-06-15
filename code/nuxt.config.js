@@ -109,6 +109,6 @@ export default {
     extend(config, ctx) {}
   },
   router: {
-    base: '/Homepage-Flag-Todo-Site/'
+    base: '/Flag-Todo-Homepage-Site/'
   }
 }
